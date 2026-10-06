@@ -1,0 +1,16 @@
+# Data is confidential and never committed: real accounts, named people, deal status.
+data/
+briefs/
+deploy/*
+!deploy/vercel.json
+wf/
+*.bak*
+*.tgz
+__pycache__/
+.DS_Store
+.vercel/
+enrich_out.json
+org_out_*.json
+org_stage0.json
+account-intelligence-handoff.md
+enrich.wf.js
