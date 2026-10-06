@@ -16,10 +16,7 @@
   Both agents were stopped before writing any `data/cache/clay/roles/*.json`. Recipe is ready: `merge_roles.py` consumes
   those files; the Clay DSL only accepts `headline` (see memory `reference-clay-mcp-limits`); the agent prompts (site lists,
   location strings, ranking, Email step, JSON schema) are in the chat of 2026-09-10 — relaunch one agent per account, then
-  `python3 merge_roles.py && python3 build-briefs.py` and redeploy as above. Known Lilly hits from the account-wide query
-  (task mcp-task_0tl5vaw92AEQgt4NBx2): Diane Tennenhouse (Site Head Houston, 504173641), Graciela M. Romero (VP Site Head
-  Huntsville, 630716459), Stephanie Cass (AVP Manufacturing Site Head, Spain → Alcobendas, 440614317), Mo Behbahani (SVP Site
-  Head/GM Drug Substance API, Indianapolis, 24851725), Jennifer Massey (AVP Manufacturing Site Head, Brownsburg IN, 755488194).
+  `python3 merge_roles.py && python3 build-briefs.py` and redeploy as above. [Five named Lilly site-head candidates with Clay ids moved to `data/handoff_private_notes.md` (git-ignored).]
 
 Nick's goal this session: show the head of sales the current state of the system. The build had
 optimised for evidence integrity and org-map depth (2 of 49 accounts), so a rep opening any other
